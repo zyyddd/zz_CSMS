@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zz_CSMS:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zz_CSMS</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zz_CSMS-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="zz_CSMS:war exploded" />
+    </root>
+  </artifact>
+</component>
